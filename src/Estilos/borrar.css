@@ -1,0 +1,39 @@
+.borrarContenedor{
+    margin: 25px 10px;
+}
+
+
+#tablaBorarrar{
+    width: 100%;
+    font-size: 1.5rem;
+    border-collapse: collapse; 
+}
+.tablaCabeceras{
+    height: 25px;
+    background-color: red;
+    width: 100%;
+}
+.tablaDetalles{
+    width: 100%;
+
+}
+th,td{
+    padding: 10px; 
+    text-align: center;
+    border: 3px solid #ccc;
+}
+#eliminar{
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 12px;  
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+#eliminar:hover{
+    background-color: red;
+    color: white;
+    
+}

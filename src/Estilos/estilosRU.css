@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+body{
+    font-size: 16px;
+    font-family:"Nunito",Courier, monospace;
+    max-height: 100vh;
+}
+.Registro{
+    margin: 5px auto;
+    width: 100vw;
+    border-radius: 50px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Registro header{
+    color: red;
+    background-color: rgba(255, 71, 71, 0.075);
+    text-align: center;
+}
+
+
+.Registro form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Registro fieldset{
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+    border-radius: 25px;
+    margin: 20px auto;
+    border: 5px solid black;
+    min-width: 500px;
+}
+
+
+.Registro .grupoform{
+    display: grid;
+    grid-template-areas: "label"
+                        "input";
+    grid-template-rows: 1fr 1fr;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.Registro .grupoform label{
+    font-size: 1.5rem;
+    grid-area: label;
+    text-align: left;
+    color: black;
+}
+input{
+	font-family: Courier;
+	font-size: 1.2rem;
+    padding: 10px;
+   /* margin-bottom: 15px;*/
+    border: 3px solid #ced4da;
+    border-radius: 5px;
+    grid-area: input;
+    font-weight: normal;
+}
+input[type="text"],input[type="password"],input[type="email"]{
+    min-width: 400px;
+    font-weight: normal;
+    font-size: 1.2rem;
+    font-family: Courier;
+}
+
+
+.botones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.botones button{
+    background-color: #316e25; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    font-family: Courier;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: 35px;
+
+}
+.boton button{
+    background-color: #316e25; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    font-family: Courier;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.botones button:hover {
+    background-color: rgb(6, 255, 27);
+}
+.boton button:hover {
+    background-color: rgb(6, 255, 27);
+}
+#Cambiar_IS{
+    font-size: 1.5rem;
+
+}
+#Cambiar_IS:hover{
+    color:rgb(200, 0, 0,0.8);
+    cursor: pointer;
+}
+.mensaje_error{
+    color: red;
+    font-size: 0.75rem;
+    font-family: 'Courier New',sans-serif;
+    
+}
+
+#boton_password, #boton_confpassword {
+    cursor: pointer;
+    position:relative;
+    left: 445px;
+    top:-35px;
+}
+
+#mensajeEstado{
+    color: white;
+    background-color: #316e25;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    font-size: 1.5rem;
+    font-family: 'Courier New',sans-serif; 
+}
+.mensajeEstadoC{
+    color: white;
+    background-color: #316e25;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    font-size: 1.5rem;
+    font-family: 'Courier New',sans-serif; 
+}
+.mensajeEstadoI{
+    margin-top: 10px;
+    color: white;
+    background-color: #e91919d5;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    font-size: 1.5rem;
+    font-family: 'Courier New',sans-serif; 
+}
+.bordeError{
+    border: 2px solid red;
+}
+.bordeNormal{
+    border: 2px solid #ced4da;
+}
+.bordeCorrecto{
+    border: 2px solid green;
+}
+
+.selectContenedor{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+#select{
+    font-family: 'Courier New',sans-serif; 
+    font-weight: normal;
+    
+}
+.OcultarElementos{
+    display: none;
+}
+.MostrarElementos{
+    display: block;
+}
