@@ -1,5 +1,5 @@
-const baseURL="http://localhost:3030/api";
-
+//const baseURL="http://localhost:3030/api";
+const baseURL="https://backendpractica-zmzq.onrender.com/api"
 async function fetchApi(endpoint,options={}) {
     //console.log(await fetch(`${baseURL}${endpoint}`,options)+"hola")
     const response=await fetch(`${baseURL}${endpoint}`,options);
